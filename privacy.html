@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidad — GalleryDiet</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1f2937; --muted: #6b7280; --line: #e5e7eb;
+    --accent: #2563eb; --card: #f9fafb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f1115; --fg:#e5e7eb; --muted:#9ca3af; --line:#262b36; --accent:#60a5fa; --card:#161a21; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 72px; }
+  h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 34px 0 10px; padding-top: 14px; border-top: 1px solid var(--line); }
+  h3 { font-size: 1rem; margin: 20px 0 6px; }
+  p, li { margin: 0 0 10px; }
+  ul { padding-left: 22px; }
+  a { color: var(--accent); }
+  code { background: var(--card); padding: 1px 5px; border-radius: 4px; font-size: .9em; }
+  .meta { color: var(--muted); font-size: .9rem; margin-bottom: 22px; }
+  .lead {
+    background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--accent);
+    border-radius: 8px; padding: 14px 16px; margin: 22px 0;
+  }
+  .lead p:last-child { margin-bottom: 0; }
+  .langbar { font-size: .9rem; color: var(--muted); margin-bottom: 26px; }
+  table { border-collapse: collapse; width: 100%; font-size: .92rem; }
+  .scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 12px 0; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; white-space: nowrap; }
+  footer { margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .88rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Política de Privacidad de GalleryDiet</h1>
+<p class="meta">Última actualización: 5 de septiembre de 2026</p>
+<p class="langbar"><strong>Español</strong> · <a href="#english">English version below</a></p>
+
+<div class="lead">
+  <p><strong>Tus fotos y vídeos nunca salen de tu dispositivo.</strong> GalleryDiet
+  no tiene servidores, no sube tu galería a ningún sitio y no puede verla. Todo
+  el análisis —detección de duplicados, comparación de imágenes similares y
+  compresión de vídeo— ocurre íntegramente en tu teléfono.</p>
+  <p>Lo único que sale del dispositivo son los datos que envían los proveedores
+  de publicidad y la tienda de aplicaciones, descritos en las secciones 4 y 5.</p>
+</div>
+
+<h2>1. Quién es el responsable</h2>
+<p>GalleryDiet es una aplicación móvil desarrollada de forma independiente. Esta
+política explica qué datos maneja la aplicación, dónde se quedan y qué terceros
+intervienen.</p>
+<p>Para cualquier consulta sobre privacidad puedes escribir a
+<a href="mailto:sramirezdev478@gmail.com">sramirezdev478@gmail.com</a>.</p>
+
+<h2>2. Acceso a tus fotos y vídeos</h2>
+<p>La aplicación existe para ayudarte a revisar y borrar contenido de tu galería,
+así que necesita acceder a ella. En concreto solicita estos permisos:</p>
+
+<div class="scroll">
+<table>
+  <tr><th>Permiso</th><th>Para qué se usa</th></tr>
+  <tr>
+    <td>Fotos y vídeos<br><code>READ_MEDIA_IMAGES</code>, <code>READ_MEDIA_VIDEO</code></td>
+    <td>Mostrarte los elementos de tu galería para que decidas cuáles conservar y cuáles eliminar.</td>
+  </tr>
+  <tr>
+    <td>Ubicación en los archivos<br><code>ACCESS_MEDIA_LOCATION</code></td>
+    <td>Leer los metadatos originales de las fotos, que pueden incluir las coordenadas GPS donde se tomaron. Es necesario para conservar esos metadatos al comprimir un vídeo y para ordenar el contenido por fecha. <strong>Esta información se lee en el dispositivo y no se transmite a nadie.</strong></td>
+  </tr>
+  <tr>
+    <td>Guardar en la galería</td>
+    <td>Escribir el vídeo comprimido de vuelta en tu galería y eliminar los elementos que tú elijas.</td>
+  </tr>
+</table>
+</div>
+
+<h3>Cómo se analizan las imágenes</h3>
+<p>Para encontrar duplicados, la aplicación calcula huellas digitales de los
+archivos (una suma de verificación del contenido y una huella visual reducida de
+la imagen). Ese cálculo se hace en tu dispositivo con los recursos del propio
+teléfono. Las huellas se guardan sólo en memoria durante el análisis y no se
+almacenan ni se envían.</p>
+
+<h3>Sobre el borrado</h3>
+<p>Cuando eliminas algo, la aplicación pide al sistema operativo que lo borre.
+El sistema muestra su propia confirmación y, en las versiones de Android que lo
+admiten, mueve el elemento a la papelera del sistema, donde puede recuperarse
+durante un tiempo limitado. GalleryDiet no conserva copias de lo que borras.</p>
+
+<h2>3. Datos que se guardan en tu dispositivo</h2>
+<p>La aplicación guarda cierta información en el almacenamiento local del
+teléfono para funcionar. Nada de esto se sincroniza ni se envía a ningún
+servidor, y desaparece por completo si borras los datos de la aplicación o la
+desinstalas:</p>
+<ul>
+  <li>Los identificadores de los elementos que ya has revisado, para no volver a mostrártelos.</li>
+  <li>Los identificadores de los elementos que has marcado como protegidos.</li>
+  <li>Un registro de tu racha diaria y del progreso de uso.</li>
+  <li>Los tamaños de archivo ya calculados, en caché, para no recalcularlos cada vez.</li>
+  <li>Un resumen de cuánto espacio ocupa cada categoría de tu galería.</li>
+  <li>Tus preferencias: idioma, modo de filtrado y si ya has visto la introducción.</li>
+  <li>Si has comprado la versión sin anuncios.</li>
+</ul>
+<p>Estos registros contienen identificadores internos y cifras, no las imágenes
+en sí.</p>
+
+<h2>4. Publicidad</h2>
+<p>La versión gratuita muestra anuncios. Para servirlos se utilizan estos
+proveedores, que son quienes reciben datos:</p>
+<ul>
+  <li><strong>AppLovin MAX</strong> — plataforma de mediación publicitaria.
+      <a href="https://www.applovin.com/privacy/" rel="noopener">Política de privacidad</a>.</li>
+  <li><strong>Google AdMob</strong> — red publicitaria.
+      <a href="https://policies.google.com/technologies/ads" rel="noopener">Cómo usa Google los datos</a>.</li>
+</ul>
+<p>Estos proveedores pueden recoger el identificador de publicidad de tu
+dispositivo, tu dirección IP, el modelo y la versión del sistema, y datos sobre
+los anuncios que se te muestran. <strong>No reciben tus fotos, tus vídeos ni
+ninguna información sobre su contenido.</strong></p>
+
+<h3>Tu consentimiento</h3>
+<p>Antes de mostrar el primer anuncio, la aplicación te pregunta si aceptas la
+publicidad personalizada, mediante el formulario de consentimiento del sector
+(UMP). Tu decisión se transmite a todos los proveedores anteriores.</p>
+<p>Si rechazas la personalización, seguirás viendo anuncios, pero no estarán
+basados en un perfil publicitario. <strong>Puedes cambiar tu decisión en
+cualquier momento</strong> desde <em>Ajustes → Opciones de privacidad</em> dentro
+de la aplicación.</p>
+<p>En iOS, además, el sistema te pedirá permiso de seguimiento por separado. Si
+lo deniegas, no se utilizará el identificador de publicidad de Apple.</p>
+
+<h2>5. Compra de la versión sin anuncios</h2>
+<p>La aplicación ofrece una compra única para eliminar la publicidad. El pago lo
+procesa íntegramente la tienda de aplicaciones (Google Play); GalleryDiet no ve
+ni almacena datos de pago, tarjetas ni tu dirección. La aplicación sólo recibe
+de la tienda la confirmación de si la compra existe.</p>
+
+<h2>6. Lo que NO se hace</h2>
+<ul>
+  <li>No hay cuentas de usuario ni registro.</li>
+  <li>No se piden nombre, correo, teléfono ni ubicación del dispositivo.</li>
+  <li>No se usa analítica de comportamiento ni herramientas de seguimiento de errores.</li>
+  <li>No se venden datos personales a terceros.</li>
+  <li>La aplicación no envía tus imágenes a ningún servidor, propio o ajeno.</li>
+</ul>
+
+<h2>7. Menores</h2>
+<p>GalleryDiet no está dirigida a menores de 13 años y no recoge
+conscientemente datos de menores de esa edad.</p>
+
+<h2>8. Tus derechos</h2>
+<p>Como la aplicación no almacena datos tuyos en ningún servidor, la forma más
+directa de ejercer tu derecho de supresión es borrar los datos de la aplicación
+o desinstalarla: eso elimina todo lo descrito en la sección 3.</p>
+<p>Respecto a los datos que manejan los proveedores de publicidad, puedes
+retirar tu consentimiento desde los ajustes de la aplicación y gestionar el
+identificador de publicidad desde los ajustes de tu dispositivo. Si resides en
+el Espacio Económico Europeo, el Reino Unido o California, dispones además de
+los derechos de acceso, rectificación, supresión y oposición reconocidos por la
+normativa aplicable; puedes ejercerlos escribiendo a la dirección de contacto.</p>
+
+<h2>9. Cambios en esta política</h2>
+<p>Si esta política cambia de forma significativa, se actualizará esta página y
+la fecha que figura al principio.</p>
+
+<h2>10. Contacto</h2>
+<p><a href="mailto:sramirezdev478@gmail.com">sramirezdev478@gmail.com</a></p>
+
+<hr style="margin:48px 0 0;border:0;border-top:1px solid var(--line)">
+
+<h1 id="english" style="margin-top:40px">GalleryDiet Privacy Policy</h1>
+<p class="meta">Last updated: September 5, 2026</p>
+
+<div class="lead">
+  <p><strong>Your photos and videos never leave your device.</strong> GalleryDiet
+  has no servers, does not upload your gallery anywhere, and cannot see it. All
+  processing — duplicate detection, similar-image comparison and video
+  compression — happens entirely on your phone.</p>
+  <p>The only data leaving your device is what the advertising providers and the
+  app store receive, described in sections 4 and 5.</p>
+</div>
+
+<h2>1. Who is responsible</h2>
+<p>GalleryDiet is an independently developed mobile application. This policy
+explains what data the app handles, where it stays, and which third parties are
+involved. For privacy enquiries, contact
+<a href="mailto:sramirezdev478@gmail.com">sramirezdev478@gmail.com</a>.</p>
+
+<h2>2. Access to your photos and videos</h2>
+<p>The app exists to help you review and delete gallery content, so it needs
+access to it. It requests permission to read your photos and videos, to read the
+original file metadata (which may include the GPS coordinates where a photo was
+taken — read on-device only and never transmitted), and to write to and delete
+from your gallery.</p>
+<p>To find duplicates, the app computes file checksums and reduced visual
+fingerprints of images. This runs on your device; fingerprints are held in
+memory during the scan and are neither stored nor transmitted.</p>
+<p>When you delete something, the app asks the operating system to remove it.
+The system shows its own confirmation and, on supported Android versions, moves
+the item to the system trash, where it can be recovered for a limited time.
+GalleryDiet keeps no copies of deleted content.</p>
+
+<h2>3. Data stored on your device</h2>
+<p>The app stores the following locally, never synced to any server, and removed
+entirely if you clear the app's data or uninstall it: identifiers of items you
+have already reviewed; identifiers of items you marked as protected; your daily
+streak and usage progress; a cache of computed file sizes; a summary of how much
+space each gallery category uses; your preferences (language, filter mode,
+whether you have seen the introduction); and whether you purchased the ad-free
+version. These records contain internal identifiers and numbers, not the images
+themselves.</p>
+
+<h2>4. Advertising</h2>
+<p>The free version shows ads, served through
+<a href="https://www.applovin.com/privacy/" rel="noopener">AppLovin MAX</a> and
+<a href="https://policies.google.com/technologies/ads" rel="noopener">Google AdMob</a>.
+These providers may collect your device advertising identifier, IP address,
+device model and OS version, and data about the ads shown to you.
+<strong>They do not receive your photos, your videos, or any information about
+their content.</strong></p>
+<p>Before the first ad is shown, the app asks for your consent to personalized
+advertising through the industry standard consent form (UMP), and your choice is
+passed to all providers above. If you decline personalization you will still see
+ads, but they will not be based on an advertising profile. You can change your
+choice at any time under <em>Settings → Privacy options</em> in the app. On iOS,
+the system will additionally ask for tracking permission; if you deny it,
+Apple's advertising identifier is not used.</p>
+
+<h2>5. Ad-free purchase</h2>
+<p>The app offers a one-time purchase to remove advertising. Payment is handled
+entirely by the app store (Google Play). GalleryDiet never sees or stores payment
+details, card data or your address — it only receives confirmation from the store
+of whether the purchase exists.</p>
+
+<h2>6. What the app does not do</h2>
+<p>There are no user accounts or sign-up. The app does not ask for your name,
+email, phone number or device location. It uses no behavioural analytics and no
+crash-reporting tools. It does not sell personal data to third parties, and it
+never sends your images to any server, ours or anyone else's.</p>
+
+<h2>7. Children</h2>
+<p>GalleryDiet is not directed at children under 13 and does not knowingly
+collect data from children under that age.</p>
+
+<h2>8. Your rights</h2>
+<p>Because the app stores no data about you on any server, the most direct way to
+exercise your right to erasure is to clear the app's data or uninstall it, which
+removes everything described in section 3. For data handled by the advertising
+providers, you can withdraw consent in the app's settings and manage your
+advertising identifier in your device settings. If you reside in the European
+Economic Area, the United Kingdom or California, you also have rights of access,
+rectification, erasure and objection under applicable law; contact us at the
+address above to exercise them.</p>
+
+<h2>9. Changes to this policy</h2>
+<p>If this policy changes materially, this page and the date shown at the top
+will be updated.</p>
+
+<h2>10. Contact</h2>
+<p><a href="mailto:sramirezdev478@gmail.com">sramirezdev478@gmail.com</a></p>
+
+<footer>
+  GalleryDiet · Política de Privacidad / Privacy Policy
+</footer>
+
+</div>
+</body>
+</html>
